@@ -1,6 +1,7 @@
 services:
   - type: web
-    name: your-bot-service
+    name: telegram-bot
     env: python
+    plan: free
     buildCommand: pip install -r requirements.txt
-    startCommand: python bot.py
+    startCommand: python your_script.py
